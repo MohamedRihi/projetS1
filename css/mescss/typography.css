@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Russo-One';
+    src: url('../fonts/RussoOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color : #041831;
+    font-size: 1.6rem;/* équivaut à 16px : système de conversion simplifié !*/
+    line-height: 1.6;
+    margin: 0 20px;
+}
+
+body>header>ul>li {
+    font-family: Russo One, sans-serif;
+}
+p>a {
+    color : green;
+}
+a {
+    text-decoration: none;
+    color : white;
+}
+.contenue>p, .Brooker>p, .Saison>p, .problématique>p, .page-autres-projets, p.a-propos {
+    margin: 2rem;
+}
+
+h3 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+h6 {
+    font-size: 2.2rem;
+    margin: 2rem 2rem;
+    text-align: center;
+}
+
+.page-autres-projets {
+    text-align: center;
+}
+.carousel-item-autres-projets > h6 {
+    font-size: 2.6rem;
+}
+h5 {
+    font-size: 1.5rem;
+}
+/*image format jpeg ou webp a retailler pour mobile
+mise en ligne du site : Infomaniak :
+hébergement web,ajouter un site, créer un sous domaine, projets1
+projets1.nomdedomaine.fr*/
